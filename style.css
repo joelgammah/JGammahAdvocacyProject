@@ -1,0 +1,301 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+/*
+  Add style rules for the body of a your webpage.
+  Note: These rules will be applied to all elements.
+*/
+body {
+
+    background-color: #785700;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    color: white;
+
+    /* Adjust the padding and margins */
+    padding-top: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+
+}
+
+
+
+/*
+  Style Text: Add style rules for any headings (h1-6),
+  paragraphs and links
+*/
+
+h1 {
+  font-family: Georgia;
+  font-size: 40px;
+  color: #ffffff;
+
+  padding-top: 0;
+  padding-left: 0;
+  padding-right: 0;
+  padding-bottom: 0;
+
+  margin-top: 0;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 0;
+
+}
+
+h2 {
+
+}
+
+h3 {
+  
+
+}
+
+p {
+
+  
+  font-family: 'Avenir', Arial;
+  font-size: 20px;
+  color: #ffffff;
+  padding: 10px;
+
+  
+
+}
+
+a:link {
+  color: black;
+}
+
+a:visited {
+  color: blue;
+}
+
+a:hover {
+  color: red;
+}
+
+a:active {
+  color: green;
+}
+
+
+
+/*
+  Style Lists: Styles added to the ol or ul style rulesets affect the entire
+  list, while styles added to the li style ruleset affect individual list items
+*/
+
+
+ol {
+
+}
+
+ol li {
+
+}
+
+
+ul {
+
+}
+
+ul li {
+
+}
+
+
+/*
+  Style Buttons: Add style rules for any headings (h1-6),
+  paragraphs and links
+*/
+
+button {
+  background-color:  #008CBA;
+  border: none;
+  color: white;
+  font-size: 16px;
+  text-align: center;
+  padding: 15px 32px;
+  cursor: pointer;
+}
+
+
+
+/* Select and style elements by class name or ID */
+
+
+/* Example: This styles elements with class="header"*/
+.header-container {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  padding-top: 20px;
+  margin-bottom: 75px;
+
+}
+
+
+/* Example: This styles an element with an id="header-img" */
+#header-img {
+  width: 85px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.header-item:nth-of-type(1) {
+
+}
+
+.header-item:nth-of-type(2) {
+
+}
+
+#header-button {
+  
+}
+
+.footer {
+  background-color: #92b70b;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+/* Part 1: Navbar */
+
+/* General style rule set for all items in ul */
+.navbar ul {
+    list-style: none;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 2;
+    width: 100%;
+    margin-bottom: 25px;
+    background-color: #36454FEE;
+    margin-top: 0px;
+    padding: 5px;
+
+}
+
+/* Style rule set for individual li */
+.navbar ul li {
+    float: left;
+    margin: 10px;
+}
+
+
+/* Style rule set for individual li link */
+.navbar ul li a {
+    font-family: Arial;
+    color:#018cba;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+/* Style rule set for hovered link */
+.navbar ul li a:hover {
+    font-weight: bold;
+}
+
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+
+
+/* Part 2: Flexbox */
+
+/* General style rule set for flex container */
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+
+/* Style rules for flex-item 1 */
+.flex-item:nth-of-type(1) {
+
+}
+
+/* Style rules for flex-item 2 */
+.flex-item:nth-of-type(2) {
+
+}
+
+/* Style rules for flex-item 3 */
+.flex-item:nth-of-type(3) {
+
+}
+
+
+/* Style set for all flex-items */
+.flex-item {
+    background: white;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* Add style to button */
+#theme-button {
+text-decoration: wavy; 
+background: #018cba;
+color: white;
+padding: 5px;
+}
+
+
+/* Customize Dark Mode Theme */
+.dark-mode {
+background-color: black;
+color: white;
+
+}
+
+.petition-container {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  width: 100;
+  padding-bottom: 50px;
+  
+}
+
+.petition-para {
+  width: 55%;
+  padding-right: 10px;
+
+}
+
+.signatures {
+  width: 45%;
+  padding-right: 10px;
+}
+
+#sign-now-button {
+background: #01bc49;
+color: white;
+padding: 5px;
+}
+
+/* Add to CSS file */
+.error {
+  border-style: solid;
+  border-width: 2px;
+  border-color: red;
+  background:pink;
+}
