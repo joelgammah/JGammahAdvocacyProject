@@ -55,3 +55,7 @@ const validateForm = () => {
 }
 
 signNowButton.addEventListener('click', validateForm);
+
+let animation = {
+
+}
